@@ -1,0 +1,32 @@
+* {
+  font-family: monospace;
+  font-size: 12px;
+  color: white;
+  border: none;
+}
+
+window#waybar {
+  background: black;
+}
+
+#workspaces button label {
+    color: #cccccc;
+}
+
+#workspaces button.active label,
+#workspaces button.focused label,
+#workspaces button.visible label {
+    color: white;
+}
+
+/* Right modules spacing */
+#temperature,
+#memory,
+#battery,
+#pulseaudio,
+#backlight,
+#bluetooth,
+#network,
+#clock {
+  padding: 0 8px;
+}
