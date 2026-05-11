@@ -1,7 +1,7 @@
 {
   "layer": "top",
   "position": "top",
-  "height": 28,
+  "height": 24,
 
   "modules-left": ["hyprland/workspaces"],
 
@@ -27,7 +27,7 @@
   },
 
   "temperature": {
-    "format": "CPU {temperatureC}°",
+    "format": "CPU {temperatureC}",
     "critical-threshold": 90
   },
 
@@ -36,15 +36,15 @@
   },
 
   "battery": {
-    "format": "POWER {capacity}%"
+    "format": "POWER {capacity}"
   },
 
   "pulseaudio": {
-    "format": "VOLUME {volume}%"
+    "format": "VOLUME {volume}"
   },
 
   "backlight": {
-    "format": "BRIGHTNESS {percent}%"
+    "format": "BRIGHTNESS {percent}"
   },
   "network": {
     "format-wifi": "WIFI",

@@ -1,7 +1,7 @@
 * {
-  font-family: monospace;
-  font-size: 12px;
-  color: white;
+  font-family: "Lincoln/MITRE L/M 5x7", monospace;
+  font-size: 14px;			
+  color: #ffffff;
   border: none;
 }
 
@@ -10,7 +10,7 @@ window#waybar {
 }
 
 #workspaces button label {
-    color: #cccccc;
+    color: #bbbbbb;
 }
 
 #workspaces button.active label,
