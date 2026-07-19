@@ -1,5 +1,5 @@
 * {
-  font-family: "Lincoln/MITRE L/M 5x7", monospace;
+  font-family: "Geist Mono", monospace;
   font-size: 14px;			
   color: #ffffff;
   border: none;
@@ -10,7 +10,7 @@ window#waybar {
 }
 
 #workspaces button label {
-    color: #bbbbbb;
+    color: #cccccc;
 }
 
 #workspaces button.active label,
